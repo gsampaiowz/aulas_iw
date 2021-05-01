@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entendendo o Position</title>
+</head>
+<style type="text/css">
+
+	.fixed{
+		text-align: center;
+		position: fixed;
+		padding: 25px;
+		top: -4%;
+		left: 0;
+		right: 0;
+		z-index: 1030;
+		background-color: brown;
+	}
+	
+	.container{
+		position: relative;
+		background-color: pink;
+		width: 100%;
+		height: 1220px;
+		text-align: center;
+	}
+
+	.topoesquerda{
+		position: absolute;
+		top: 1%;
+		left: 1%;
+		font-size: 18px;
+		width: 20%;
+		background-color: lightblue;
+	}
+
+	.topodireita{
+		position: absolute;
+		top: 1%;
+		right: 1%;
+		font-size: 18px;
+		width: 20%;
+		background-color: lightgreen;
+	}	
+
+	.abaixoesquerda{
+		position: absolute;
+		bottom: 1%;
+		left: 1%;
+		font-size: 18px;
+		width: 20%;
+		background-color: yellow;
+	}
+
+	.abaixodireita{
+		position: absolute;
+		bottom: 1%;
+		right: 1%;
+		font-size: 18px;
+		width: 20%;
+		background-color: orange;
+	}
+
+	.centro{
+		position: absolute;
+		font-size: 18px;
+		top: 50%;
+		right: 40%;
+		width: 20%;
+		background-color: violet;
+	}
+
+	.main{
+		margin-top: 8%;
+	}
+
+	.link{
+		text-align: center;
+		font-family: sans-serif;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	a:visited{
+		color: #FF4500;
+		background-color: transparent;
+		text-decoration: none;
+	}	
+
+	a:hover{
+		color: #ff1a1a;
+		background-color: transparent;
+		text-decoration: none;
+	}
+
+	a:link{
+		color: #FF4500;
+		background-color: transparent;
+		text-decoration: none;
+	}
+
+</style>
+<body>
+	<header>
+		<h1 class="fixed">Testando Posicionamento</h1>
+	</header>
+	<div class="main">
+		<h1>Testando...</h1>
+		<div class="container">
+			<div class="topoesquerda">No topo à esquerda</div>
+			<div class="topodireita">No topo à direita</div>
+			<div class="abaixoesquerda">Abaixo à esquerda</div>
+			<div class="abaixodireita">Abaixo à direita</div>
+			<div class="centro">No centro</div>
+		</div>
+		<div>
+			<p class="link"><a href="index.html">Volte para a página inicial por aqui</a></p>	
+		</div>
+	</div>	
+</body>
+</html>

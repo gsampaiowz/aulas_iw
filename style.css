@@ -1,0 +1,108 @@
+body{
+	background-image: url(../img/Fundo.jpg);
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-size: 23px;
+}
+			
+h2{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul li, ol li{
+	margin-left: 35px;
+	margin-right: 35px;
+	text-align: justify;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+figure{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a:visited{
+	color: #FF4500;
+	background-color: transparent;
+	text-decoration: none;
+}	
+
+a:hover{
+	color: #ff1a1a;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:link{
+	color: #FF4500;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+p{
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+.img{
+	border: solid 5px;
+	width: 60%;
+}
+
+table, td, th {
+ 	border: 1px solid black;
+ 	padding: 5px;
+}
+
+table{
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-left: 10%;
+}
+
+.link{
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav{
+	font-size: large;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: white;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+header{
+	background-color: #228B22;
+	padding: 50px;
+}
+
+footer{
+	padding: 50px;
+	background-color: #228B22;
+}
+
+.text{
+	margin-left: 15px;
+	margin-right: 15px;
+}
