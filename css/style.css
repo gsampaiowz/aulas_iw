@@ -1,5 +1,5 @@
 body{
-	background-color: #D3D3D3;
+	background-image: url(../img/Fundo.jpg);
 	font-family: sans-serif;
 }
 
@@ -55,7 +55,7 @@ p{
 	text-align: justify;
 }
 
-.img1{
+.img{
 	border: solid 5px;
 	width: 60%;
 }
@@ -66,9 +66,10 @@ table, td, th {
 }
 
 table{
-	width: 100%;
+	width: 80%;
 	border-collapse: collapse;
 	border: 1px solid black;
+	margin-left: 10%;
 }
 
 .link{
@@ -86,14 +87,22 @@ nav{
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
+	background-color: white;
+	padding-bottom: 1px;
+	padding-top: 1px;
 }
 
 header{
-	background-color: rgba(218,165,32,0.8);
-	padding: 30px;
+	background-color: #228B22;
+	padding: 50px;
 }
 
 footer{
-	padding: 30px;
-	background-color: rgba(218,165,32,0.8);
+	padding: 50px;
+	background-color: #228B22;
+}
+
+.text{
+	margin-left: 15px;
+	margin-right: 15px;
 }
