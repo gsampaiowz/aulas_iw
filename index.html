@@ -10,16 +10,24 @@
 		<link rel="icon" href="img/Favicon.png">
 	</head> 
 	<body>  <!-- Conteúdo da página -->
-		<header>
-			<nav>
-				<h1>DESENVOLVIMENTO PARA INTERNET – HTML E CSS</h1>
+		<header class="fixo">
+			<h1><img class="logotipo" src="img/Logotipo.png"></h1>
+			<nav class="menu">
+				<ul class="ajustes">
+					<li><a href="#container">Inicio</a></li>
+					<li><a href="#HTML">HTML</a></li>
+					<li><a href="#CSS">CSS</a></li>
+					<li><a href="javascript.html">JAVASCRIPT</a></li>
+					<li><a href="#AUTOR">Autor</a></li>
+				</ul>
 			</nav>
 		</header>  
 		<div class="container">
-			<div>  		
+			<div id="HTML">
+			  	<h1>DESENVOLVIMENTO PARA INTERNET – HTML E CSS</h1>	
 				<h2>Introdução ao HTML e CSS​</h2>
 					<p class="link"><a href="https://www.w3schools.com/html/default.asp" target="_blank">Veja o tutorial de HTML aqui</a></p>
-					<ul>
+					<ul class="listatexto">
 						<li>HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas. (FERREIRA & EIS, ONLINE, p.7)​</li>
 						<li>Hipertexto pode ser definido como todo o conteúdo o qual se encontra inserido em um documento para a web, sendo que sua principal característica seria a possibilidade de se interligar a outros documentos também na web. (SILVA, 2011, p.20)</li>
 						<li>O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos – ou nós – ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.​</li>
@@ -31,13 +39,16 @@
 						<img class="img" src="img/Evo1.png" title="Evolução do HTML 1991-2010" alt="Evolução do HTML 1991-2010">
 					</figure>
 			</div>
-			<div>	
+			<div id="CSS">	
 				<h2>O que é e para que serve o CSS​</h2>
 					<p class="text">CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.​</p>
 			</div>
 			<div>
 				<p class="link"><a href="javascript.html">Clique aqui para conhecer um pouco de JavaScript</a></p>
 				<p class="link"><a href="posicionamento.html">Clique aqui para ver um pouco sobre Position</a></p>
+			</div>
+			<div id="AUTOR">
+				<p class="autoria">Feito por Gabriel Oliveira Sampaio</p>
 			</div>		
 		</div>
 		<footer>
